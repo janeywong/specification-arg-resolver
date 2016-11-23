@@ -30,7 +30,7 @@
 	</developers>
 
 	<properties>
-		<spring.version>4.0.1.RELEASE</spring.version>
+		<spring.version>4.3.3.RELEASE</spring.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
@@ -179,13 +179,13 @@
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-entitymanager</artifactId>
-			<version>4.3.4.Final</version>
+			<version>4.3.11.Final</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.hibernate.javax.persistence</groupId>
-			<artifactId>hibernate-jpa-2.0-api</artifactId>
-			<version>1.0.1.Final</version>
+			<artifactId>hibernate-jpa-2.1-api</artifactId>
+			<version>1.0.0.Final</version>
 		</dependency>
 		<dependency>
 			<groupId>com.h2database</groupId>
@@ -231,12 +231,12 @@
 		<dependency>
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-jpa</artifactId>
-			<version>1.5.1.RELEASE</version>
+			<version>1.10.3.RELEASE</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
-			<version>3.3.1</version>
+			<version>3.4</version>
 		</dependency>
 
 		<dependency>
