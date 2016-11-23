@@ -19,7 +19,7 @@
 			<url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
 		</license>
 	</licenses>
-	<developers>
+	<!--<developers>
 		<developer>
 			<name>Tomasz Kaczmarzyk</name>
 			<roles>
@@ -27,19 +27,19 @@
 			</roles>
 			<organization>kaczmarzyk.net</organization>
 		</developer>
-	</developers>
+	</developers>-->
 
 	<properties>
 		<spring.version>4.3.3.RELEASE</spring.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
-	<scm>
+	<!--<scm>
 		<connection>scm:git:https://github.com/tkaczmarzyk/specification-arg-resolver.git</connection>
 		<url>scm:git:https://github.com/tkaczmarzyk/specification-arg-resolver.git</url>
 		<developerConnection>scm:git:https://github.com/tkaczmarzyk/specification-arg-resolver.git</developerConnection>
 		<tag>HEAD</tag>
-	</scm>
+	</scm>-->
 
 	<profiles>
 		<profile>
@@ -277,7 +277,7 @@
 		</dependency>
 	</dependencies>
 
-	<distributionManagement>
+	<!--<distributionManagement>
 		<repository>
 			<id>kaczmarzyk.net</id>
 			<name>kaczmarzyk.net repository</name>
@@ -288,5 +288,5 @@
 			<name>kaczmarzyk.net repository</name>
 			<url>ftp://repo.kaczmarzyk.net</url>
 		</snapshotRepository>
-	</distributionManagement>
+	</distributionManagement>-->
 </project>
